@@ -100,8 +100,8 @@ button.code-folding-btn:focus {
 <link rel="stylesheet" href="../index.css">
 <nav>
   <ul>
-    <li><a href="">Home</a></li>
-    <li><a href="/research/">Research</a></li>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="index.html">Research</a></li>
   </ul>
 </nav>
 
@@ -148,6 +148,7 @@ $(document).ready(function () {
 <div id="methodology-and-results" class="section level2">
 <h2>Methodology and Results</h2>
 <p>To identify where this differentiation occurs, we study the relative performance of each asset during Bitcoin’s upside and downside periods. We identify each asset’s coefficient of systemic risk, or <span class="math inline">\(\beta\)</span>, benchmarked against the performance Bitcoin. We then decompose <span class="math inline">\(\beta\)</span> into upside <span class="math inline">\(\beta\)</span> (<span class="math inline">\(\beta^+\)</span>) and downside <span class="math inline">\(\beta\)</span> (<span class="math inline">\(\beta^+\)</span>), considering only the days on which Bitcoin’s returns were positive and negative, respectively. For each asset, we then derive <span class="math inline">\(\alpha\)</span>, <span class="math inline">\(\alpha^+\)</span>, and <span class="math inline">\(\alpha^-\)</span>, the excess returns on the corresponding days calculated using the corresponding systemic risk, for the sake of simplicity using a risk-free rate of 0. The results of these calculations are shown in the table below.</p>
+<div id="table-wrapper">
 <table class="table table-condensed">
 <thead>
 <tr>
@@ -292,6 +293,7 @@ ZEC
 </tr>
 </tbody>
 </table>
+</div>
 <p>Analyzing these results, we find that <span class="math inline">\(\beta^-\)</span> significantly exceeds <span class="math inline">\(\beta^+\)</span> for each altcoin. This indicates that each altcoin in the study is more exposed to Bitcoin’s downturns than to its upswings. On decomposition, the negative <span class="math inline">\(\alpha\)</span> is shown to be a result of this increased exposure, in combination with a negative <span class="math inline">\(\alpha^-\)</span>, and despite a positive <span class="math inline">\(\alpha^+\)</span>.</p>
 <p>These results lead us to conclude that the poor altcoin market performance occurs as a result of both greater exposure to Bitcoin’s downside than upside, and an independent negative return in downside situations.</p>
 </div>
